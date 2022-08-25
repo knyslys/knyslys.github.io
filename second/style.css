@@ -224,10 +224,13 @@ margin-right:30px;
 
 /* End our produtcs */
 
+
+/* Article */
 .article {
-    max-width: 700px;
-    max-height: 400px;
+    min-width: 200px;
+    min-height: 200px;
 }
+
 
 .our-story {
     display: flex;
@@ -244,10 +247,35 @@ margin-right:30px;
     margin-top: 15px;
 }
 
-.bbbz {
-    font-size: 20px;
+
+/* partners cards  */
+
+
+.partner-card {
+    background-color: rgba(0, 0, 0,0);
+    width: auto;
+    height: auto;
 }
 
+.partner-list {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(100px,200px));
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+
+}
+
+.partner-top {
+    column-width:200px;
+}
+
+.partner-top h1 {
+    margin: 0px;
+}
+
+/*  */
 @media screen and (max-width:710px) {
     .active-w a {
         font-size:2vh;
@@ -276,4 +304,16 @@ margin-right:30px;
         justify-content: center;
         padding-bottom: 20px;
     }
+    .partner-list {
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    }
+
+    .article .img-card{
+      width: 50px;
+    }
+    
+}
+
+footer {
+    margin-top: 70px;
 }
