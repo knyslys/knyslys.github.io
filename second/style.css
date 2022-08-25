@@ -304,9 +304,9 @@ margin-right:30px;
         justify-content: center;
         padding-bottom: 20px;
     }
-    /* .partner-list {
+    .partner-list {
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-    } */
+    }
 
     .article .img-card{
       width: 50px;
