@@ -44,8 +44,9 @@ ul {
 /* ------------------------------------------------------------------------Top of website */
 
 .top-overlay {
-  background-color: rgba(33, 37, 41, 0.5);
-  height: auto;
+  background-color: rgba(33, 37, 41, 0.8);
+  height: 100%;
+  width: 100%;
 }
 
 .top-header {
@@ -56,6 +57,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-position-x: center;
+  padding-bottom: 60px;
 }
 
 .nav li {
